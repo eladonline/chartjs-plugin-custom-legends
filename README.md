@@ -21,7 +21,7 @@ let's see the code:
     ///...rest of the chart plugins
     );
 
-    const dataset = [{
+    const dataset = {
          label:"some label text",
          data:[{y: 50, x: new Date()}],
          // now here we give each dataset its legend item image
@@ -41,11 +41,11 @@ let's see the code:
          // required only if you use hover plugin.
          primaryHoverImage:  primaryHoverIMAGE
          selectedHoverImage: SelectedHoverIMAGE
-    }]
+    }
 
     // now only render the chart.
-    const BarChart = ({ data }) => {
-        return <Bar options={{//whatever your options are...}} data={data} />;
+    const BarChart = () => {
+        return <Bar options={{//whatever your options are...}} data={{datasets:[dataset]}} />;
     };
 
     
