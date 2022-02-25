@@ -1,0 +1,31 @@
+{
+  "name": "chartjs-plugin-custom-legend",
+  "version": "1.0.0",
+  "description": "adding custom legend",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eladonline/chartjs-plugin-custom-legend.git"
+  },
+  "author": "Elad <eladonline@walla.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eladonline/chartjs-plugin-custom-legend/issues"
+  },
+  "homepage": "https://github.com/eladonline/chartjs-plugin-custom-legend#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-preset-minify": "^0.5.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
