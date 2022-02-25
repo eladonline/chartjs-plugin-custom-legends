@@ -1,6 +1,6 @@
 # chartjs-plugin-custom-legend
 
-###This is a plugin for replacing chartjs legend to images. 
+### This is a plugin for replacing chartjs legend to images. 
 
 here, the legend items are images
 ![](./example.png) 
