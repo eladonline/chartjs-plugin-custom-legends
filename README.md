@@ -18,6 +18,7 @@ let's see the code:
     LegendClick,
     LegendHover,
     LegendBottomMargin(20),
+    Legend,
     ///...rest of the chart plugins
     );
 
