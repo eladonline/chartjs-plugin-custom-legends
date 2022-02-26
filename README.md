@@ -2,6 +2,15 @@
 
 ### This is a plugin for replacing chartjs legend to images. 
 
+  
+        
+ The module on [npm](https://www.npmjs.com/package/chartjs-plugin-custom-legend) 
+ 
+ ### install:
+ 
+    npm i chartjs-plugin-custom-legend
+   
+   
 here, the legend items are images
 ![](./example.png) 
 
